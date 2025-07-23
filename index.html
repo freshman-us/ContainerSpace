@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cubic Feet Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cubic Feet Calculator</h1>
+        <div class="package-container">
+            <div class="package">
+                <h2>12 Rolls</h2>
+                <p>0.694 cubic feet</p>
+                <p>17.909 x 13.740 x 4.880 in</p>
+                <label for="quantity12">Quantity:</label>
+                <input type="number" id="quantity12" min="0" value="0">
+                <p>Total Cubic Feet: <span id="result12">0</span></p>
+            </div>
+            <div class="package">
+                <h2>24 Rolls</h2>
+                <p>1.292 cubic feet</p>
+                <p>17.900 x 13.400 x 9.299 in</p>
+                <label for="quantity24">Quantity:</label>
+                <input type="number" id="quantity24" min="0" value="0">
+                <p>Total Cubic Feet: <span id="result24">0</span></p>
+            </div>
+            <div class="package">
+                <h2>48 Rolls</h2>
+                <p>2.391 cubic feet</p>
+                <p>17.500 x 17.500 x 13.500 in</p>
+                <label for="quantity48">Quantity:</label>
+                <input type="number" id="quantity48" min="0" value="0">
+                <p>Total Cubic Feet: <span id="result48">0</span></p>
+            </div>
+        </div>
+        <button id="calculateBtn">Calculate</button>
+        <div class="results">
+            <h2>Total</h2>
+            <p>Total Combined Cubic Feet: <span id="totalResult">0</span></p>
+            <p>40ft High Cube Container Capacity: <span>2,694 cubic feet</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
