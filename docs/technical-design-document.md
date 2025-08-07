@@ -8,6 +8,7 @@ The `index.html` file will contain:
     *   The dimensions of the package displayed as text.
     *   An input field for the quantity.
 *   A button to trigger the calculation.
+*   A button to clear all inputs.
 *   A designated area to display:
     *   The calculated total cubic feet for each package size.
     *   The combined total cubic feet.

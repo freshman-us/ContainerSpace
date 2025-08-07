@@ -1,14 +1,15 @@
 const packages = {
+    '6': { length: 23, width: 20, height: 14 },
     '12': { length: 17.909, width: 13.740, height: 4.880 },
     '24': { length: 17.900, width: 13.400, height: 9.299 },
     '48': { length: 17.500, width: 17.500, height: 13.500 },
-    '6': { length: 23, width: 20, height: 14 },
     '12b': { length: 17, width: 13.85, height: 7.75 },
 };
 
 const calculateBtn = document.getElementById('calculateBtn');
+const clearBtn = document.getElementById('clearBtn');
 
-calculateBtn.addEventListener('click', () => {
+function calculate() {
     let totalCubicFeet = 0;
 
     for (const roll in packages) {
@@ -20,4 +21,16 @@ calculateBtn.addEventListener('click', () => {
     }
 
     document.getElementById('totalResult').textContent = totalCubicFeet.toFixed(2);
+}
+
+calculateBtn.addEventListener('click', calculate);
+
+clearBtn.addEventListener('click', () => {
+    for (const roll in packages) {
+        document.getElementById(`quantity${roll}`).value = 0;
+    }
+    calculate();
 });
+
+// Initial calculation on page load
+calculate();
