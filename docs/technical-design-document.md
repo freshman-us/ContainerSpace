@@ -4,7 +4,7 @@
 
 The `index.html` file will contain:
 
-*   Three sections, one for each package size, each with:
+*   Five sections, one for each package size, each with:
     *   The dimensions of the package displayed as text.
     *   An input field for the quantity.
 *   A button to trigger the calculation.

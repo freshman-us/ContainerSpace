@@ -2,6 +2,8 @@ const packages = {
     '12': { length: 17.909, width: 13.740, height: 4.880 },
     '24': { length: 17.900, width: 13.400, height: 9.299 },
     '48': { length: 17.500, width: 17.500, height: 13.500 },
+    '6': { length: 13.4, width: 9.5, height: 4.5 },
+    '12b': { length: 17, width: 13.85, height: 7.75 },
 };
 
 const calculateBtn = document.getElementById('calculateBtn');

@@ -6,10 +6,12 @@ This document specifies the requirements for a web-based cubic feet calculator. 
 
 ## 2. Functional Requirements
 
-*   The user shall be able to input quantities for three different package sizes:
+*   The user shall be able to input quantities for five different package sizes:
     *   12 rolls: 17.909 x 13.740 x 4.880 in
     *   24 rolls: 17.900 x 13.400 x 9.299 in
     *   48 rolls: 17.500 x 17.500 x 13.500 in
+    *   6 rolls: 13.4 x 9.5 x 4.5 in
+    *   12 box: 17 x 13.85 x 7.75 in
 *   The system shall calculate the total cubic feet for each package size based on the user's input.
 *   The system shall display the total cubic feet for each package size.
 *   The system shall display the total combined cubic feet for all packages.
