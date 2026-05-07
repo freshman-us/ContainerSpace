@@ -4,6 +4,7 @@ const packages = {
     '24': { length: 17.900, width: 13.400, height: 9.299 },
     '48': { length: 17.500, width: 17.500, height: 13.500 },
     '12b': { length: 17, width: 13.85, height: 7.75 },
+    '12f': { length: 17.75, width: 13.5, height: 5.5 },
 };
 
 const calculateBtn = document.getElementById('calculateBtn');
