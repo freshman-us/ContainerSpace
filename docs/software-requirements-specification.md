@@ -12,6 +12,7 @@ This document specifies the requirements for a web-based cubic feet calculator. 
     *   24 rolls: 17.900 x 13.400 x 9.299 in
     *   48 rolls: 17.500 x 17.500 x 13.500 in
     *   12 box: 17 x 13.85 x 7.75 in
+    *   12 fruit box: 17.75 x 13.5 x 5.25 in
 *   The user shall be able to clear all input fields, which will reset the calculation.
 *   The system shall calculate the total cubic feet for each package size based on the user's input.
 *   The system shall display the total cubic feet for each package size.
